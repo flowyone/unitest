@@ -14,7 +14,7 @@ class Logout(unittest.TestCase):
         self.driver = webdriver.Chrome(
             r"C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.6\chromedriver.exe")
         self.driver.implicitly_wait(5)
-        self.driver.get("http://news.120ask.com")
+        self.driver.get("http://domain.com")
         print('start')
     def tearDown(self):
         print('end')
